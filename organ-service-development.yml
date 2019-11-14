@@ -25,10 +25,9 @@ security:
       token-info-uri: http://172.28.43.142:9191/oauth/check_token
     client:
       client-id: mobile
-      client-secret: secret  
+      client-secret: secret
 management:
   endpoints:
     web:
       exposure:
-        include:
-        - "*"
+        include: "*"
