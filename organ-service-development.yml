@@ -30,5 +30,6 @@ security:
 management:
   endpoints:
     web:
-	  exposure:
-	   include: "*"
+      exposure:
+        include:
+        - "*"
