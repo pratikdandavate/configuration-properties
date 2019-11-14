@@ -26,3 +26,11 @@ security:
     client:
       client-id: mobile
       client-secret: secret
+	  
+management:
+  endpoints:
+    web:
+	  exposure:
+	   include: "*"
+	  
+	  
