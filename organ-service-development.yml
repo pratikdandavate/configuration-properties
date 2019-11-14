@@ -1,7 +1,7 @@
 server:
   port: 8181
 
-msg: Hello and Welcome to the application. You can create a new Organ by making a POST request to /api/organs endpoint. - These are new changes
+msg: Hello and Welcome to the application. You can create a new Organ by making a POST request to /api/organs endpoint. - Changes not reflected
  
 spring:
   datasource:
