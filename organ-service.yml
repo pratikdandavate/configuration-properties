@@ -2,6 +2,14 @@ server:
   port: 8181
 
 msg: Hello and Welcome to the application. You can create a new Organ by making a POST request to /api/organs endpoint. - System Generated
+
+eureka:  
+  client:
+    serviceUrl:
+      defaultZone: ${DISCOVERY_URL:http://localhost:8761}/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
  
 spring:
   datasource:
