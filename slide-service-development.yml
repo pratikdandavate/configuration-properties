@@ -1,1 +1,1 @@
-msg: Hello and Welcome to the application. You can create a new Slide by making a POST request to /api/slides endpoint. - Development Generated and I made changes to slide service
+msg: Hello and Welcome to the application. You can create a new Slide by making a POST request to /api/slides endpoint. - Hello from Slide service
